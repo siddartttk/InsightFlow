@@ -1,0 +1,38 @@
+{
+  "name": "UCI Online Retail \u00b7 1/10 invoice sample",
+  "source": "Chen, D. (2015). Online Retail. UCI Machine Learning Repository. DOI: 10.24432/C5BW33. CC BY 4.0. Deterministic SHA-256 invoice sample; customer IDs pseudonymized. Sample totals are not full-dataset totals.",
+  "synthetic": false,
+  "denominator": 10,
+  "original_quality": {
+    "input_rows": 541909,
+    "duplicate_rows": 5268,
+    "invalid_rows": 2512,
+    "missing_customer_rows": 132565,
+    "missing_description_rows": 0,
+    "missing_country_rows": 0,
+    "purchase_rows": 524878,
+    "return_rows": 9251,
+    "retained_rows": 534129,
+    "invalid_date_rows": 0,
+    "invalid_price_rows": 2512,
+    "invalid_quantity_rows": 0,
+    "missing_invoice_rows": 0,
+    "missing_stockcode_rows": 0
+  },
+  "quality": {
+    "input_rows": 49086,
+    "duplicate_rows": 0,
+    "invalid_rows": 0,
+    "missing_customer_rows": 10888,
+    "missing_description_rows": 0,
+    "missing_country_rows": 0,
+    "purchase_rows": 48208,
+    "return_rows": 878,
+    "retained_rows": 49086,
+    "invalid_date_rows": 0,
+    "invalid_price_rows": 0,
+    "invalid_quantity_rows": 0,
+    "missing_invoice_rows": 0,
+    "missing_stockcode_rows": 0
+  }
+}

@@ -1,0 +1,205 @@
+/* Expressive color is confined to analytical marks and data accents. */
+.chart-key-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 0 0 14px;
+}
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.chart-legend [role="listitem"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.chart-legend svg {
+  flex-shrink: 0;
+}
+.chart-compare {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--color-text-secondary);
+  font-size: 12px;
+  min-height: 32px;
+  cursor: pointer;
+}
+.chart-compare input {
+  accent-color: var(--chart-gross);
+  width: 14px;
+  height: 14px;
+  margin: 0;
+}
+.data-highlight {
+  border-radius: 3px;
+  padding: 7px 10px;
+  color: var(--color-text);
+}
+.chart-total.data-highlight {
+  margin: 0;
+  line-height: 1.5;
+}
+.market-heading-stat.data-highlight {
+  padding: 8px 10px;
+}
+.market-heading-stat strong {
+  color: var(--chart-gross);
+}
+.chart-color-note {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  padding: 0 0 14px;
+}
+.chart-footer .chart-color-note {
+  padding: 0;
+}
+.rank-track {
+  height: 6px;
+  border-radius: 1px;
+}
+.rank-track > span {
+  border-radius: 1px;
+}
+.ranked-product:hover .rank-track > span {
+  opacity: 0.85;
+}
+.rank-number {
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+.data-tooltip {
+  min-width: 185px;
+  max-width: 310px;
+  background: var(--chart-background);
+  border: 1px solid var(--chart-border);
+  border-radius: 3px;
+  padding: 12px 14px;
+  color: var(--color-text);
+  font-size: 13px;
+}
+.data-tooltip-heading {
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--color-line);
+}
+.data-tooltip-values {
+  display: grid;
+  gap: 8px;
+}
+.data-tooltip-values > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+.data-tooltip-values span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.data-tooltip-values i {
+  height: 7px;
+  width: 7px;
+  border-radius: 1px;
+  flex-shrink: 0;
+}
+.data-tooltip-values strong {
+  font-family: var(--font-technical);
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+}
+.data-tooltip-footer {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--color-line);
+  font-size: 11px;
+  color: var(--color-text-secondary);
+}
+.segments-panel > .chart-legend {
+  margin: 0 0 22px;
+}
+.segment-distribution {
+  height: 18px;
+}
+.segment-distribution > div {
+  border-right: 2px solid var(--color-paper);
+}
+.segment-distribution > div:last-child {
+  border-right: 0;
+}
+.metric-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+}
+.metric-accent {
+  width: 6px;
+  height: 6px;
+  border-radius: 1px;
+  background: var(--metric-accent);
+  flex-shrink: 0;
+}
+.primary-metrics .metric[data-metric="gross"] .metric-value {
+  color: var(--chart-gross);
+}
+.primary-metrics .metric[data-metric="net"] .metric-value {
+  color: var(--metric-accent);
+}
+.metric[data-metric="returns"] .metric-value {
+  color: var(--chart-negative);
+}
+.trend-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 6px;
+  border-radius: 2px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.positive .trend-badge {
+  color: var(--chart-positive);
+  background: var(--chart-positive-wash);
+}
+.negative .trend-badge {
+  color: var(--chart-negative);
+  background: var(--chart-negative-wash);
+}
+@media (max-width: 760px) {
+  .chart-compare {
+    min-height: 44px;
+  }
+  .chart-legend {
+    gap: 8px 14px;
+  }
+  .chart-key-row {
+    gap: 2px 12px;
+  }
+  .data-tooltip {
+    max-width: 280px;
+    min-width: 0;
+    padding: 10px 12px;
+  }
+  .data-tooltip-values > div {
+    gap: 10px;
+  }
+  .data-tooltip-values span {
+    max-width: 150px;
+  }
+  .metric-label {
+    gap: 6px;
+  }
+}

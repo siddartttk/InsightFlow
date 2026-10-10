@@ -1,0 +1,1206 @@
+/* Editorial product identity. Shared interaction rules remain in globals.css. */
+:root {
+  --background: var(--color-paper);
+  --panel: var(--color-surface);
+  --ink: var(--color-text);
+  --muted: var(--color-text-secondary);
+  --border: var(--color-line);
+  --teal: var(--color-brand);
+  --copper: var(--color-accent);
+  --sidebar: var(--color-navigation);
+}
+
+body {
+  font-size: 14px;
+}
+.sidebar {
+  width: 208px;
+  padding: 35px 24px 22px;
+  background: var(--sidebar);
+}
+.brand {
+  display: block;
+  margin: 0;
+  font-size: 29px;
+  letter-spacing: -1.65px;
+  line-height: 1.05;
+}
+.brand-wordmark > span:first-child {
+  font-weight: 400;
+  color: #ccd3bb;
+}
+.brand-period {
+  color: #d1b38a;
+}
+.brand-caption {
+  font:
+    11px "IBM Plex Mono",
+    monospace;
+  letter-spacing: 1.9px;
+  color: #bac6b5;
+  margin: 13px 0 36px;
+}
+.workspace-card {
+  border: 0;
+  border-top: 1px solid #50614e;
+  border-radius: 0;
+  padding: 20px 0;
+  margin: 0 0 19px;
+}
+.workspace-card small {
+  color: #b9c7b5;
+  display: block;
+  font:
+    11px "IBM Plex Mono",
+    monospace;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+.workspace-card strong {
+  font-size: 13px;
+  color: #f2f0df;
+}
+.nav-label {
+  margin: 0 0 10px;
+  font-size: 11px;
+  color: #a9b9a6;
+}
+.nav-link {
+  margin: 0;
+  padding: 13px 0;
+  border-radius: 0;
+  gap: 14px;
+  font-size: 13px;
+  color: #c5d0bf;
+  border-bottom: 1px solid transparent;
+}
+.nav-index {
+  font:
+    11px "IBM Plex Mono",
+    monospace;
+  color: #9dac96;
+  width: 15px;
+  flex-shrink: 0;
+}
+.nav-link:hover {
+  background: transparent;
+  color: #fff8e5;
+  border-color: #607258;
+}
+.nav-link.active {
+  background: transparent;
+  color: #f7f2da;
+  border-color: #829376;
+  font-weight: 500;
+}
+.nav-link.active .nav-index {
+  color: #e1c295;
+}
+.nav-active-marker {
+  width: 4px;
+  height: 4px;
+  background: #dcc091;
+}
+.nav-divider {
+  margin-top: 28px;
+}
+.sidebar-bottom {
+  padding: 30px 0 0;
+}
+.dataset-label {
+  font-size: 12px;
+  line-height: 1.6;
+}
+.sidebar-bottom > p {
+  font-size: 11px;
+  line-height: 1.7;
+  color: #b3c0aa;
+}
+.profile {
+  display: none;
+}
+.sidebar-legal {
+  margin-bottom: 2px;
+  color: #c0cbb6;
+}
+.main-shell {
+  margin-left: 208px;
+}
+.topbar {
+  background: transparent;
+  height: 66px;
+  padding: 0 40px;
+  border-bottom: 1px solid var(--border);
+}
+.breadcrumb {
+  font-size: 13px;
+}
+.topbar-note {
+  font-size: 11px;
+  letter-spacing: 1.2px;
+}
+.main-content {
+  padding: 35px 40px 36px;
+  max-width: 1580px;
+}
+.page-heading {
+  margin-bottom: 25px;
+  align-items: flex-end;
+}
+.page-heading .eyebrow {
+  display: none;
+}
+.page-heading h1 {
+  font-size: 43px;
+  font-weight: 500;
+  letter-spacing: -1.8px;
+  line-height: 1.08;
+}
+.overview-heading h1 {
+  font-size: 48px;
+  letter-spacing: -2.1px;
+}
+.page-description {
+  font-size: 14px;
+  margin-top: 10px;
+  max-width: 580px;
+}
+.button {
+  border-radius: 2px;
+  padding: 10px 13px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.button-secondary {
+  background: transparent;
+  border-color: #afb6a4;
+}
+.export-summary {
+  background: var(--teal);
+  color: #f8f3e6;
+  border-color: var(--teal);
+}
+.export-summary:hover:not(:disabled) {
+  background: #1a3b33;
+  color: #f8f3e6;
+  border-color: #1a3b33;
+}
+.filters {
+  border-top: 0;
+  padding: 0;
+  margin-bottom: 13px;
+  gap: 14px;
+}
+.filter-presets {
+  gap: 14px;
+}
+.filter-presets button {
+  padding: 7px 0;
+  font-size: 13px;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+}
+.filter-presets button:hover {
+  background: transparent;
+  border-color: var(--teal);
+}
+.filter-fields label {
+  font-size: 11px;
+  color: #5e6c60;
+}
+.filter-fields input,
+.filter-fields select {
+  background: transparent;
+  border-color: #c3cabc;
+  border-radius: 2px;
+  height: 32px;
+  font-size: 12px;
+}
+.filter-fields input {
+  width: 120px;
+}
+.filter-fields select {
+  width: 130px;
+}
+.filter-apply {
+  height: 32px;
+  padding: 6px 11px;
+  font-size: 12px;
+}
+.data-notice {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  padding: 10px 0 13px;
+  margin-bottom: 18px;
+  gap: 11px;
+}
+.data-notice > span {
+  font-size: 11px;
+  letter-spacing: 0.8px;
+  color: #45604a;
+}
+.data-notice p {
+  font-size: 12px;
+  color: var(--muted);
+}
+.data-notice a {
+  font-size: 11px;
+  color: var(--teal);
+}
+.synthetic-notice {
+  background: #eee3d2;
+  padding: 11px 13px;
+  border: 1px solid #d8c5a7;
+}
+.selection-caption {
+  font:
+    11px "IBM Plex Mono",
+    monospace;
+  margin-bottom: 16px;
+  color: #627161;
+}
+
+/* Numbers are part of the page, rather than a repeating row of cards. */
+.metrics {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 30px;
+}
+.primary-metrics {
+  grid-template-columns: 1.75fr 1fr 0.8fr 1fr;
+  border-top: 0;
+  padding-bottom: 7px;
+}
+.metric {
+  padding: 18px 23px 18px;
+  border-right: 1px solid var(--border);
+}
+.metric:first-child {
+  padding-left: 0;
+}
+.metric:last-child {
+  padding-right: 0;
+}
+.metric-title {
+  font-size: 13px;
+  margin-bottom: 12px;
+  color: #5a6b5c;
+  font-weight: 400;
+}
+.metric-info {
+  font-size: 11px;
+  width: 12px;
+  height: 12px;
+  color: #6e7d69;
+  border-color: #9baa8e;
+}
+.metric-value {
+  font-size: 34px;
+  letter-spacing: -1.2px;
+  color: var(--ink);
+  font-weight: 400;
+  line-height: 1.1;
+}
+.primary-metrics .metric:not(:first-child) .metric-value {
+  font-size: clamp(25px, 2.2vw, 34px);
+}
+.primary-metrics .metric:first-child,
+.primary-metrics .metric:nth-child(2) {
+  background: transparent;
+  border-radius: 0;
+  color: var(--ink);
+}
+.primary-metrics .metric:first-child .metric-title {
+  color: var(--teal);
+  font-weight: 500;
+}
+.primary-metrics .metric:first-child .metric-info {
+  color: #6e7d69;
+  border-color: #9baa8e;
+}
+.primary-metrics .metric:first-child .metric-value {
+  font-size: 54px;
+  letter-spacing: -2.8px;
+  color: var(--teal);
+}
+.primary-metrics .metric:first-child .metric-description,
+.primary-metrics .metric:first-child .comparison-note,
+.primary-metrics .metric:first-child .unavailable {
+  color: var(--muted);
+}
+.primary-metrics .metric:first-child .positive {
+  color: #386344;
+}
+.primary-metrics .metric:first-child .negative {
+  color: #865d3f;
+}
+.metric-change {
+  font-size: 12px;
+  margin-top: 12px;
+  gap: 6px;
+  flex-direction: row;
+}
+.comparison-note {
+  font-size: 11px;
+}
+.metric-description {
+  font-size: 12px;
+  line-height: 1.6;
+  max-width: 240px;
+  margin-top: 10px;
+}
+.positive {
+  color: #386344;
+}
+.negative {
+  color: #865d3f;
+}
+
+/* A wide chart and a quiet numerical rail establish the primary hierarchy. */
+.performance-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 230px;
+  gap: 32px;
+  margin-bottom: 30px;
+}
+.panel {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 28px;
+}
+.panel-header {
+  padding: 0 0 18px;
+  align-items: flex-start;
+}
+.panel-header .eyebrow {
+  display: none;
+}
+.panel-header h2 {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.7px;
+}
+.panel-badge {
+  font-size: 11px;
+  border: 0;
+  border-radius: 0;
+  padding: 7px 0;
+  color: #637459;
+  letter-spacing: 1px;
+}
+.trend-panel {
+  margin-bottom: 0;
+  border-bottom: 0;
+}
+.chart-controls {
+  gap: 9px;
+}
+.segmented-control {
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  gap: 13px;
+}
+.segmented-control button {
+  padding: 5px 0;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  font-size: 12px;
+}
+.segmented-control button.selected {
+  background: transparent;
+  color: var(--teal);
+  border-color: var(--teal);
+  font-weight: 500;
+}
+.chart-export {
+  padding: 5px 0 5px 7px;
+}
+.chart-summary {
+  padding: 0;
+  margin-bottom: 12px;
+}
+.chart-total {
+  font-size: 11px;
+}
+.chart-series select {
+  font-size: 12px;
+}
+.chart-area {
+  height: 292px;
+  padding: 0;
+}
+.chart-footer {
+  padding: 11px 0 14px;
+  border-color: var(--border);
+  font-size: 11px;
+}
+.chart-footer > span {
+  margin-bottom: 3px;
+}
+.chart-footer details summary {
+  font-size: 12px;
+}
+.performance-sidebar {
+  border-left: 1px solid var(--border);
+  padding-left: 25px;
+  min-width: 0;
+}
+.rail-heading .eyebrow {
+  font-size: 11px;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 7px;
+}
+.rail-heading h2 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+}
+.performance-sidebar .metrics {
+  display: block;
+  border: 0;
+  margin: 11px 0 8px;
+}
+.performance-sidebar .metric {
+  padding: 13px 0;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+}
+.performance-sidebar .metric:last-child {
+  border-bottom: 0;
+}
+.performance-sidebar .metric-title {
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+.performance-sidebar .metric-value {
+  font-size: 30px;
+  letter-spacing: -1px;
+}
+.performance-sidebar .metric-change {
+  margin-top: 7px;
+  font-size: 11px;
+  gap: 4px;
+}
+.performance-sidebar .metric-description {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+  margin: 8px 0 0;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.rail-link {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--teal);
+  padding-top: 11px;
+}
+.rail-link:hover {
+  text-decoration: underline;
+}
+.two-columns {
+  gap: 36px;
+}
+.two-columns > .panel:nth-child(2) {
+  border-left: 1px solid var(--border);
+  padding-left: 28px;
+}
+.ranked-products {
+  padding: 0 0 13px;
+}
+.ranked-product {
+  gap: 15px;
+  margin: 16px 0;
+}
+.rank-number {
+  padding-top: 2px;
+  font-size: 11px;
+  color: #718062;
+}
+.rank-label {
+  font-size: 14px;
+  gap: 14px;
+}
+.rank-label strong {
+  font:
+    12px "IBM Plex Mono",
+    monospace;
+  font-weight: 400;
+}
+.rank-track {
+  height: 3px;
+  margin: 9px 0 6px;
+  background: #dfe3d4;
+}
+.rank-track > span {
+  background: #879b70;
+}
+.ranked-product:first-child .rank-track > span {
+  background: var(--teal);
+}
+.rank-meta {
+  font-size: 11px;
+  color: #65725d;
+}
+.country-chart {
+  height: 276px;
+  padding: 0;
+}
+.section-heading {
+  margin: 3px 0 17px;
+  padding-top: 3px;
+}
+.section-heading h2 {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: -0.6px;
+}
+.text-link {
+  font-size: 12px;
+}
+.insight-list {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  border-top: 1px solid var(--border);
+  margin-bottom: 32px;
+}
+.insight {
+  padding: 22px 0;
+  gap: 23px;
+}
+.insight-number {
+  font-size: 12px;
+  color: #748268;
+  width: 17px;
+  padding-top: 1px;
+  flex-shrink: 0;
+}
+.insight .eyebrow {
+  font-size: 11px;
+  letter-spacing: 0.9px;
+  margin-bottom: 7px;
+  color: #65725d;
+}
+.insight h3 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.compact .insight {
+  display: grid;
+  grid-template-columns: 17px 1fr;
+  padding: 17px 0;
+}
+.compact .insight > div {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr) 100px;
+  gap: 5px 22px;
+  align-items: start;
+}
+.compact .insight .eyebrow {
+  grid-column: 1;
+  grid-row: 1;
+}
+.compact .insight h3 {
+  grid-column: 1;
+  grid-row: 2;
+  font-size: 13px;
+}
+.compact .insight > div > p:not(.eyebrow) {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  font-size: 13px;
+}
+.compact .insight details {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  margin: 0;
+}
+.compact .insight details p {
+  font-size: 12px;
+  line-height: 1.7;
+}
+.compact .insight summary {
+  font-size: 11px;
+}
+
+/* Reports retain the density and alignment of a working ledger. */
+.product-table {
+  border-top: 1px solid var(--border);
+  padding-top: 23px;
+}
+.product-table .panel-header {
+  align-items: center;
+}
+.search-field input {
+  border: 0;
+  border-bottom: 1px solid #b4bfaa;
+  background: transparent;
+  border-radius: 0;
+  padding: 8px 0;
+  font-size: 13px;
+}
+th {
+  background: #e5e8dc;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  padding: 11px 15px;
+  font-size: 12px;
+  color: #4e614a;
+}
+td {
+  padding: 13px 15px;
+  font-size: 13px;
+  border-color: #dcdfd3;
+}
+th:first-child,
+td:first-child {
+  padding-left: 0;
+}
+th:last-child,
+td:last-child {
+  padding-right: 0;
+}
+.table-pagination {
+  padding: 13px 0;
+  font-size: 11px;
+}
+.table-pagination button {
+  background: transparent;
+  border-color: #b9c3b0;
+  font-size: 11px;
+}
+.prose-panel {
+  padding: 22px 0;
+  border-top: 1px solid var(--border);
+}
+.prose-panel h2 {
+  font-size: 23px;
+  font-weight: 400;
+}
+.prose-panel p {
+  font-size: 13px;
+}
+.report-row {
+  padding: 24px 0;
+}
+.import-content {
+  padding: 0 0 24px;
+}
+.upload-zone {
+  background: #e9ede0;
+  border-color: #9aaa8f;
+  padding: 45px 20px;
+}
+.segments-panel {
+  border-top: 1px solid var(--border);
+  padding-top: 22px;
+}
+.segment-distribution {
+  margin: 7px 0 25px;
+}
+.main-footer {
+  margin: 0 40px;
+  padding: 18px 0 22px;
+  font-size: 11px;
+}
+
+@media (min-width: 1440px) {
+  .primary-metrics .metric:first-child .metric-value {
+    font-size: 64px;
+  }
+  .metric-value {
+    font-size: 39px;
+  }
+  .performance-layout {
+    grid-template-columns: minmax(0, 1fr) 260px;
+    gap: 38px;
+  }
+  .chart-area {
+    height: 320px;
+  }
+}
+@media (max-width: 1150px) {
+  .main-content {
+    padding: 30px 27px;
+  }
+  .topbar {
+    padding: 0 27px;
+  }
+  .main-footer {
+    margin: 0 27px;
+  }
+  .page-heading h1,
+  .overview-heading h1 {
+    font-size: 41px;
+  }
+  .primary-metrics {
+    grid-template-columns: 1.55fr 1fr 0.75fr 1fr;
+  }
+  .primary-metrics .metric:first-child .metric-value {
+    font-size: 44px;
+    letter-spacing: -2px;
+  }
+  .metric {
+    padding: 17px 14px;
+  }
+  .metric-value {
+    font-size: 28px;
+  }
+  .metric-change {
+    flex-direction: column;
+    gap: 2px;
+  }
+  .performance-layout {
+    grid-template-columns: minmax(0, 1fr) 195px;
+    gap: 20px;
+  }
+  .performance-sidebar {
+    padding-left: 18px;
+  }
+  .performance-sidebar .metric-value {
+    font-size: 26px;
+  }
+  .two-columns {
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+  }
+  .two-columns > .panel:nth-child(2) {
+    padding-left: 20px;
+  }
+  .compact .insight > div {
+    grid-template-columns: 170px minmax(0, 1fr);
+  }
+  .compact .insight details {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .chart-total {
+    font-size: 11px;
+  }
+}
+@media (max-width: 950px) and (min-width: 761px) {
+  .sidebar {
+    width: 182px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .brand {
+    font-size: 25px;
+  }
+  .brand-caption {
+    font-size: 10px;
+    letter-spacing: 1.4px;
+  }
+  .main-shell {
+    margin-left: 182px;
+  }
+  .primary-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .primary-metrics .metric:nth-child(3) {
+    padding-left: 0;
+  }
+  .primary-metrics .metric:nth-child(2) {
+    border-right: 0;
+  }
+  .performance-layout {
+    grid-template-columns: 1fr;
+  }
+  .performance-sidebar {
+    border-left: 0;
+    border-top: 1px solid var(--border);
+    padding: 20px 0 0;
+  }
+  .performance-sidebar .metrics {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+  }
+  .performance-sidebar .metric {
+    border-bottom: 0;
+  }
+  .two-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .two-columns > .panel:nth-child(2) {
+    border-left: 0;
+    padding-left: 0;
+  }
+}
+.market-heading-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 1px;
+}
+.market-heading-stat strong {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: -1px;
+  color: var(--teal);
+  font-variant-numeric: tabular-nums;
+}
+.market-heading-stat span {
+  font:
+    11px "IBM Plex Mono",
+    monospace;
+  color: var(--muted);
+  padding-top: 5px;
+}
+
+@media (max-width: 760px) {
+  .sidebar {
+    width: 230px;
+    padding: 32px 25px 24px;
+  }
+  .main-shell {
+    margin-left: 0;
+  }
+  .main-content {
+    padding: 28px 20px;
+  }
+  .topbar {
+    height: 60px;
+    padding: 0 20px;
+  }
+  .main-footer {
+    margin: 0 20px;
+  }
+  .page-heading {
+    gap: 18px;
+    margin-bottom: 25px;
+    align-items: flex-start;
+  }
+  .page-heading h1,
+  .overview-heading h1 {
+    font-size: 38px;
+    letter-spacing: -1.5px;
+  }
+  .page-description {
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  .export-summary {
+    font-size: 12px;
+    padding: 9px 11px;
+  }
+  .filters {
+    gap: 12px;
+    margin-bottom: 10px;
+  }
+  .filter-presets {
+    gap: 21px;
+  }
+  .filter-presets button {
+    font-size: 12px;
+  }
+  .filter-fields {
+    gap: 8px;
+  }
+  .filter-fields input,
+  .filter-fields select {
+    width: 100%;
+    height: 34px;
+    font-size: 13px;
+  }
+  .filter-apply {
+    height: 34px;
+    padding: 8px 12px;
+  }
+  .data-notice {
+    padding: 10px 0 13px;
+    gap: 7px;
+    margin-bottom: 20px;
+  }
+  .data-notice p {
+    font-size: 11px;
+    line-height: 1.6;
+  }
+  .data-notice a {
+    margin-left: 0;
+  }
+  .selection-caption {
+    font-size: 11px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+  }
+  .primary-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-bottom: 25px;
+  }
+  .metric {
+    padding: 17px 14px;
+  }
+  .primary-metrics .metric:nth-child(2) {
+    border-right: 0;
+    padding-right: 0;
+  }
+  .primary-metrics .metric:nth-child(3) {
+    padding-left: 0;
+  }
+  .primary-metrics .metric:nth-child(-n + 2) {
+    border-bottom: 1px solid var(--border);
+  }
+  .primary-metrics .metric:first-child .metric-value {
+    font-size: 32px;
+    letter-spacing: -1.6px;
+  }
+  .metric-value {
+    font-size: 28px;
+  }
+  .metric-title {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .metric-description {
+    font-size: 11px;
+  }
+  .performance-layout {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    margin-bottom: 30px;
+  }
+  .panel-header h2 {
+    font-size: 21px;
+  }
+  .panel-header {
+    padding: 0 0 15px;
+  }
+  .chart-controls {
+    margin-left: 0;
+  }
+  .segmented-control {
+    gap: 14px;
+  }
+  .segmented-control button {
+    font-size: 12px;
+  }
+  .chart-summary {
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 7px;
+  }
+  .chart-total {
+    font-size: 11px;
+  }
+  .chart-area {
+    height: 270px;
+    padding: 0;
+  }
+  .chart-footer {
+    padding: 12px 0;
+  }
+  .performance-sidebar {
+    border-left: 0;
+    border-top: 1px solid var(--border);
+    padding: 20px 0 0;
+  }
+  .performance-sidebar .metrics {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 13px;
+  }
+  .performance-sidebar .metric {
+    border: 0;
+    padding: 12px 0;
+  }
+  .performance-sidebar .metric-title {
+    font-size: 11px;
+    min-height: 29px;
+    align-items: flex-start;
+    margin-bottom: 6px;
+  }
+  .performance-sidebar .metric-info {
+    display: none;
+  }
+  .performance-sidebar .metric-value {
+    font-size: 22px;
+    letter-spacing: -1px;
+  }
+  .performance-sidebar .metric-change {
+    font-size: 11px;
+    line-height: 1.5;
+    flex-direction: column;
+  }
+  .performance-sidebar .comparison-note {
+    font-size: 11px;
+  }
+  .two-columns {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .two-columns > .panel:nth-child(2) {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .ranked-products {
+    padding: 0 0 15px;
+  }
+  .rank-label {
+    font-size: 14px;
+  }
+  .rank-label strong {
+    font-size: 12px;
+  }
+  .country-chart {
+    height: 270px;
+  }
+  .compact .insight > div {
+    display: block;
+  }
+  .compact .insight {
+    gap: 16px;
+  }
+  .compact .insight h3 {
+    margin-bottom: 7px;
+  }
+  .compact .insight details {
+    margin-top: 8px;
+  }
+  .section-heading {
+    gap: 18px;
+    align-items: flex-start;
+  }
+  .section-heading h2 {
+    font-size: 22px;
+  }
+  .section-heading .text-link {
+    max-width: 105px;
+    text-align: right;
+    line-height: 1.7;
+  }
+  .product-table .panel-header {
+    align-items: flex-start;
+  }
+  .search-field {
+    width: 100%;
+  }
+  .search-field input {
+    width: 100%;
+  }
+  .product-table {
+    padding-top: 20px;
+  }
+  .metrics:not(.primary-metrics) .metric-value {
+    font-size: 28px;
+  }
+  .performance-sidebar .metrics:not(.primary-metrics) .metric-value {
+    font-size: 22px;
+  }
+  .prose-panel {
+    padding: 22px 0;
+  }
+  .report-row {
+    padding: 22px 0;
+  }
+  .import-content {
+    padding: 0 0 22px;
+  }
+  .report-row .button {
+    margin-left: 31px;
+  }
+  .brand-caption {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 380px) {
+  .main-content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .primary-metrics .metric:first-child .metric-value {
+    font-size: 29px;
+  }
+  .metric-value {
+    font-size: 25px;
+  }
+  .performance-sidebar .metrics {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .performance-sidebar .metric {
+    border-bottom: 1px solid var(--border);
+  }
+  .performance-sidebar .metric-title {
+    min-height: 0;
+    font-size: 13px;
+  }
+  .performance-sidebar .metrics:not(.primary-metrics) .metric-value {
+    font-size: 27px;
+  }
+  .performance-sidebar .metric-change {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 760px) {
+  .primary-metrics {
+    display: block;
+    padding-bottom: 0;
+  }
+  .primary-metrics .metric:first-child {
+    padding: 10px 0 22px;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .primary-metrics .metric:first-child .metric-value {
+    font-size: 48px;
+    letter-spacing: -2.6px;
+  }
+  .primary-metrics .metric:first-child .metric-description {
+    max-width: none;
+  }
+  .primary-metrics .metric:not(:first-child) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 4px 15px;
+    padding: 17px 0;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .primary-metrics .metric:last-child {
+    border-bottom: 0;
+  }
+  .primary-metrics .metric:not(:first-child) .metric-title {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    align-self: center;
+    justify-content: flex-start;
+    gap: 8px;
+  }
+  .primary-metrics .metric:not(:first-child) .metric-value {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 27px;
+    text-align: right;
+  }
+  .primary-metrics .metric:not(:first-child) .metric-description {
+    grid-column: 1;
+    grid-row: 2;
+    margin: 0;
+    font-size: 11px;
+  }
+  .primary-metrics .metric:not(:first-child) .metric-change {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 2px 0 0;
+    text-align: right;
+    align-items: flex-end;
+  }
+}

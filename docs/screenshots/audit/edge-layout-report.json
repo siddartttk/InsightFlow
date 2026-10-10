@@ -1,0 +1,212 @@
+[
+  {
+    "viewport": "narrow-mobile",
+    "section": "overview",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 2
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "revenue",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 3
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "products",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "customers",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "insights",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "import",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "reports",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "about",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "privacy",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "terms",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "overview",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 2
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "revenue",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 3
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "products",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "customers",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "insights",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "import",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "reports",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "about",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "privacy",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "terms",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "overview",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 2
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "revenue",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 3
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "products",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "customers",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "insights",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "import",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "reports",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "about",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "privacy",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "terms",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "viewport": "desktop",
+    "section": "overview",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "desktop",
+    "section": "revenue",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "desktop",
+    "section": "products",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "desktop",
+    "section": "customers",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "tablet",
+    "section": "overview",
+    "overflow": false,
+    "chartCount": 2
+  },
+  {
+    "viewport": "tablet",
+    "section": "revenue",
+    "overflow": false,
+    "chartCount": 3
+  },
+  {
+    "viewport": "tablet",
+    "section": "products",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "tablet",
+    "section": "customers",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "mobile",
+    "section": "overview",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "mobile",
+    "section": "revenue",
+    "overflow": false,
+    "chartCount": 3
+  },
+  {
+    "viewport": "mobile",
+    "section": "products",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "mobile",
+    "section": "customers",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "overview",
+    "overflow": false,
+    "chartCount": 2
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "revenue",
+    "overflow": false,
+    "chartCount": 3
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "products",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "narrow-mobile",
+    "section": "customers",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "overview",
+    "overflow": false,
+    "chartCount": 2
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "revenue",
+    "overflow": false,
+    "chartCount": 3
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "products",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "compact-tablet",
+    "section": "customers",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "overview",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "revenue",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "products",
+    "overflow": false,
+    "chartCount": 0
+  },
+  {
+    "viewport": "wide-desktop",
+    "section": "customers",
+    "overflow": false,
+    "chartCount": 0
+  }
+]

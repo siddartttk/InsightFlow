@@ -1,0 +1,212 @@
+[
+  {
+    "viewport": "desktop",
+    "section": "overview",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 2
+  },
+  {
+    "viewport": "desktop",
+    "section": "revenue",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 3
+  },
+  {
+    "viewport": "desktop",
+    "section": "products",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "desktop",
+    "section": "customers",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "desktop",
+    "section": "insights",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "desktop",
+    "section": "import",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "desktop",
+    "section": "reports",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "desktop",
+    "section": "about",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "desktop",
+    "section": "privacy",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "desktop",
+    "section": "terms",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "tablet",
+    "section": "overview",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 2
+  },
+  {
+    "viewport": "tablet",
+    "section": "revenue",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 3
+  },
+  {
+    "viewport": "tablet",
+    "section": "products",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "tablet",
+    "section": "customers",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "tablet",
+    "section": "insights",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "tablet",
+    "section": "import",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "tablet",
+    "section": "reports",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "tablet",
+    "section": "about",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "tablet",
+    "section": "privacy",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "tablet",
+    "section": "terms",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "mobile",
+    "section": "overview",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 2
+  },
+  {
+    "viewport": "mobile",
+    "section": "revenue",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 3
+  },
+  {
+    "viewport": "mobile",
+    "section": "products",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "mobile",
+    "section": "customers",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "mobile",
+    "section": "insights",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "mobile",
+    "section": "import",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "mobile",
+    "section": "reports",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "mobile",
+    "section": "about",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "mobile",
+    "section": "privacy",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  },
+  {
+    "viewport": "mobile",
+    "section": "terms",
+    "overflow": false,
+    "metricOverflow": 0,
+    "chartCount": 0
+  }
+]

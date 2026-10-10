@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: insightflow-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements-lock.txt
+    startCommand: uvicorn app.main:app --app-dir backend --host 0.0.0.0 --port $PORT --workers 1
+    healthCheckPath: /health
+    envVars:
+      - key: ENABLE_UPLOADS
+        value: "false"
+      - key: ALLOWED_ORIGINS
+        sync: false
+      - key: SESSION_TTL_SECONDS
+        value: "1800"
+      - key: MAX_UPLOAD_SESSIONS
+        value: "20"
+      - key: MAX_SESSION_MEMORY_MB
+        value: "128"
